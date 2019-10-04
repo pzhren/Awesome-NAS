@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="25ccd4ad-13d8-423b-ae9c-b81275a201dc" name="默认更改列表" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints>
+      <file url="file://$PROJECT_DIR$/cnn/operations.py" />
+    </disable_hints>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Darts" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cnn/architect.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cnn/visualize.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cnn/operations.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+              <folding>
+                <element signature="e#26#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cnn/train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2389">
+              <caret line="154" column="76" selection-start-line="154" selection-start-column="76" selection-end-line="154" selection-end-column="76" />
+              <folding>
+                <element signature="e#23#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cnn/model_search.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1210">
+              <caret line="173" column="23" selection-start-line="173" selection-start-column="23" selection-end-line="173" selection-end-column="23" />
+              <folding>
+                <element signature="e#24#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cnn/train_search.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cnn/genotypes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cnn/model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3690">
+              <caret line="209" column="42" selection-start-line="209" selection-start-column="42" selection-end-line="209" selection-end-column="42" />
+              <folding>
+                <element signature="e#15#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cnn/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="678">
+              <caret line="56" column="41" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>CLASSIFICATION_TYPE</find>
+      <find>AvgrageMeter</find>
+      <find>accuracy</find>
+      <find>Cutout</find>
+      <find>_data_transforms_cifar10</find>
+      <find>count_parameters_in_MB</find>
+      <find>save</find>
+      <find>save_checkpoint</find>
+      <find>load</find>
+      <find>drop_path</find>
+      <find>train_queue</find>
+      <find>logits</find>
+      <find>criterion</find>
+      <find>step</find>
+      <find>create_exp_dir</find>
+      <find>3</find>
+      <find>print</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>loader_te</replace>
+      <replace>x</replace>
+      <replace>y_true</replace>
+      <replace>y_pred</replace>
+      <replace>loss_fn</replace>
+      <replace>idx_batch</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/cnn/model_search.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/cnn/search-EXP-20190626-093318/log.txt" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/cnn/operations.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/cnn/model.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/cnn/utils.py" />
+        <option value="$PROJECT_DIR$/cnn/CNN_README.md" />
+        <option value="$PROJECT_DIR$/MY_cnn/model_search.py" />
+        <option value="$PROJECT_DIR$/MY_cnn/model.py" />
+        <option value="$PROJECT_DIR$/MY_cnn/train.py" />
+        <option value="$PROJECT_DIR$/NAS+AR_CNN/operations.py" />
+        <option value="$PROJECT_DIR$/NAS_AR_CNN/operations.py" />
+        <option value="$PROJECT_DIR$/NAS_AR_CNN/dataset_loader.py" />
+        <option value="$PROJECT_DIR$/NAS_AR_CNN/data_utils.py" />
+        <option value="$PROJECT_DIR$/NAS_AR_CNN/core/data_utils.py" />
+        <option value="$PROJECT_DIR$/NAS_AR_CNN/core/utils.py" />
+        <option value="$PROJECT_DIR$/NAS_AR_CNN/core/architect.py" />
+        <option value="$PROJECT_DIR$/NAS_AR_CNN/genotypes.py" />
+        <option value="$PROJECT_DIR$/NAS_AR_CNN/model_search.py" />
+        <option value="$PROJECT_DIR$/NAS_AR_CNN/train_search.py" />
+        <option value="$PROJECT_DIR$/cnn/architect.py" />
+        <option value="$PROJECT_DIR$/cnn/genotypes.py" />
+        <option value="$PROJECT_DIR$/cnn/train_search.py" />
+        <option value="$PROJECT_DIR$/cnn/model_search.py" />
+        <option value="$PROJECT_DIR$/cnn/visualize.py" />
+        <option value="$PROJECT_DIR$/cnn/train.py" />
+        <option value="$PROJECT_DIR$/cnn/operations.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="27" />
+    <option name="y" value="420" />
+    <option name="width" value="1271" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope '项目文件'; set:项目文件; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Scope '项目文件'; set:项目文件; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="Darts" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="F:\LocalGitHub\Awesome-NAS\1DARTS-Differentiable Architecture Search\Darts" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="Darts" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="F:\LocalGitHub\Awesome-NAS\1DARTS-Differentiable Architecture Search\Darts" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="cnn" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Darts" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="F:\LocalGitHub\Awesome-NAS\1DARTS-Differentiable Architecture Search\Darts" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="data" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cnn" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/cnn/operations.py" />
+  </component>
+  <component name="ReadonlyStatusHandler">
+    <option name="SHOW_DIALOG" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\LocalGitHub\Awesome-NAS\1DARTS-Differentiable Architecture Search\Darts\cnn" />
+      <recent name="F:\西北大学\2.论文阅读\13行为识别\NAS+AR\MYcode\NAS_AR_CNN\core" />
+      <recent name="F:\西北大学\2.论文阅读\13行为识别\NAS+AR\MYcode\NAS_AR_CNN" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\西北大学\2.论文阅读\13行为识别\NAS+AR\MYcode\NAS_AR_CNN\core" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.visualize">
+    <configuration name="Python Console" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Darts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="/Python Console" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="model_search" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Darts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cnn" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cnn/model_search.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train_search (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Darts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NAS_AR_CNN" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NAS_AR_CNN/train_search.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train_search" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Darts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cnn" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cnn/train_search.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="visualize" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Darts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cnn" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cnn/visualize.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.visualize" />
+        <item itemvalue="Python.train_search" />
+        <item itemvalue="Python.model_search" />
+        <item itemvalue="Python.train_search (2)" />
+        <item itemvalue="Python.Python Console" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+    <option name="myConnectionType" value="NONE" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="25ccd4ad-13d8-423b-ae9c-b81275a201dc" name="默认更改列表" comment="" />
+      <created>1561950168209</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561950168209</updated>
+      <workItem from="1561950178667" duration="37000" />
+      <workItem from="1561950230127" duration="10733000" />
+      <workItem from="1562070913872" duration="4653000" />
+      <workItem from="1562122043906" duration="51000" />
+      <workItem from="1562122517728" duration="452000" />
+      <workItem from="1562123061395" duration="68000" />
+      <workItem from="1562123203313" duration="82000" />
+      <workItem from="1562138391925" duration="4851000" />
+      <workItem from="1562401896900" duration="4117000" />
+      <workItem from="1562655845337" duration="3453000" />
+      <workItem from="1562659434649" duration="708000" />
+      <workItem from="1562661940255" duration="5997000" />
+      <workItem from="1562940461063" duration="834000" />
+      <workItem from="1563101826959" duration="2843000" />
+      <workItem from="1563115055591" duration="82000" />
+      <workItem from="1563159823642" duration="24000" />
+      <workItem from="1563194502850" duration="979000" />
+      <workItem from="1563199515826" duration="137000" />
+      <workItem from="1563261130901" duration="811000" />
+      <workItem from="1564488866841" duration="1250000" />
+      <workItem from="1565352077970" duration="2000" />
+      <workItem from="1565352109159" duration="4114000" />
+      <workItem from="1565394572198" duration="652000" />
+      <workItem from="1565437575399" duration="10408000" />
+      <workItem from="1566363950575" duration="22092000" />
+      <workItem from="1566453043342" duration="2427000" />
+      <workItem from="1566544067415" duration="3661000" />
+      <workItem from="1566610181390" duration="580000" />
+      <workItem from="1566827146112" duration="596000" />
+      <workItem from="1567147758213" duration="2540000" />
+      <workItem from="1567169083650" duration="3988000" />
+      <workItem from="1567235413359" duration="80044000" />
+      <workItem from="1567583312397" duration="920000" />
+      <workItem from="1567601597769" duration="7120000" />
+      <workItem from="1567734219390" duration="67000" />
+      <workItem from="1568007310260" duration="7841000" />
+      <workItem from="1568091509125" duration="6423000" />
+      <workItem from="1568253275809" duration="1601000" />
+      <workItem from="1568290006380" duration="1331000" />
+      <workItem from="1568294388205" duration="2520000" />
+      <workItem from="1568438301185" duration="8412000" />
+      <workItem from="1569992964635" duration="7295000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="220723000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="27" y="420" width="1271" height="1047" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info id="File Transfer" order="0" sideWeight="0.43820226" side_tool="true" weight="0.25357872" />
+      <window_info id="Favorites" order="1" sideWeight="0.51693666" side_tool="true" weight="0.041044775" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.56179774" visible="true" weight="0.2213047" />
+      <window_info id="Structure" order="3" sideWeight="0.36944744" side_tool="true" weight="0.16311301" />
+      <window_info id="Remote Host" order="4" sideWeight="0.7363737" weight="0.15618336" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.71086955" weight="0.34044945" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.12892741" />
+      <window_info anchor="bottom" id="GitHub Pull Requests" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="调试" order="9" weight="0.32925472" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="10" weight="0.32936078" />
+      <window_info anchor="bottom" id="TODO" order="11" sideWeight="0.50053304" side_tool="true" weight="0.27030033" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.38326225" weight="0.42380422" />
+      <window_info anchor="right" id="SciView" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="right" id="Run" order="5" sideWeight="0.7260606" weight="0.31767955" />
+      <window_info anchor="right" id="Version Control" order="6" side_tool="true" weight="0.18176973" />
+      <window_info anchor="right" id="Terminal" order="7" sideWeight="0.7084222" weight="0.674" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" sideWeight="0.50080776" side_tool="true" weight="0.13646056" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.63055253" visible="true" weight="0.16311301" />
+      <window_info id="Structure" order="2" sideWeight="0.36944744" side_tool="true" visible="true" weight="0.16311301" />
+      <window_info id="Remote Host" order="3" sideWeight="0.47128928" weight="0.1433902" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.18201517" />
+      <window_info anchor="bottom" id="File Transfer" order="8" visible="true" weight="0.17833698" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.0595883" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.12892741" />
+      <window_info anchor="bottom" id="GitHub Pull Requests" order="12" weight="0.32936078" />
+      <window_info anchor="bottom" id="调试" order="13" />
+      <window_info anchor="right" id="SciView" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="right" id="Run" order="5" sideWeight="0.49945828" visible="true" weight="0.29264393" />
+      <window_info anchor="right" id="Python Console" order="6" sideWeight="0.5005417" side_tool="true" visible="true" weight="0.29264393" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MYcode$train_search.coverage" NAME="train_search Coverage Results" MODIFIED="1567518682275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cnn" />
+    <SUITE FILE_PATH="coverage/Darts$test.coverage" NAME="test Coverage Results" MODIFIED="1563261198271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cnn" />
+    <SUITE FILE_PATH="coverage/Darts$visualize.coverage" NAME="visualize Coverage Results" MODIFIED="1568110636566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cnn" />
+    <SUITE FILE_PATH="coverage/MYcode$Python_Console.coverage" NAME="Python Console Coverage Results" MODIFIED="1567317351116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Darts$train_search__2_.coverage" NAME="train_search (2) Coverage Results" MODIFIED="1568007393011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NAS_AR_CNN" />
+    <SUITE FILE_PATH="coverage/Darts$model_search.coverage" NAME="model_search Coverage Results" MODIFIED="1568077327619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cnn" />
+    <SUITE FILE_PATH="coverage/MYcode$test.coverage" NAME="test Coverage Results" MODIFIED="1565438925047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cnn" />
+    <SUITE FILE_PATH="coverage/MYcode$train.coverage" NAME="train Coverage Results" MODIFIED="1566545310245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cnn" />
+    <SUITE FILE_PATH="coverage/Darts$train_search.coverage" NAME="train_search Coverage Results" MODIFIED="1568093221299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cnn" />
+    <SUITE FILE_PATH="coverage/Darts$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1563195333385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MY_cnn" />
+    <SUITE FILE_PATH="coverage/Darts$train_search__1_.coverage" NAME="train_search (1) Coverage Results" MODIFIED="1563195362290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MY_cnn" />
+    <SUITE FILE_PATH="coverage/MYcode$train_search__2_.coverage" NAME="train_search (2) Coverage Results" MODIFIED="1567601664186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NAS_AR_CNN" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/cnn/Convolution.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="54">
+            <caret line="139" selection-start-line="139" selection-end-line="139" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnn/search-EXP-20190626-093318/log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="451" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnn/train_imagenet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnn/eval-EXP-20190627-220154/log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MY_cnn/model.py" />
+    <entry file="file://$PROJECT_DIR$/MY_cnn/train.py" />
+    <entry file="file://$PROJECT_DIR$/MY_cnn/utils.py" />
+    <entry file="file://F:/Python_WorkSpace/PyTorch/测试/尝试可视化卷积效果.ipynb" />
+    <entry file="file://$PROJECT_DIR$/MY_cnn/model_search.py" />
+    <entry file="file://$PROJECT_DIR$/MY_cnn/train_search.py" />
+    <entry file="file://$PROJECT_DIR$/MY_cnn/test.py" />
+    <entry file="file://F:/Python_WorkSpace/PyTorch/尝试可视化卷积效果/尝试可视化卷积效果.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnn/CNN_README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-18">
+            <caret column="1" selection-start-column="1" selection-end-column="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/remote_sources/1179558797/1682843110/torch/nn/modules/module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="76" column="8" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NAS_AR_CNN/metrics.py" />
+    <entry file="file://$PROJECT_DIR$/NAS_AR_CNN/dataset_loader.py" />
+    <entry file="file://$PROJECT_DIR$/cnn/search-EXP-20190626-093318/scripts/model_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="165" column="6" selection-start-line="165" selection-start-column="6" selection-end-line="165" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NAS_AR_CNN/core/config.py" />
+    <entry file="file://$PROJECT_DIR$/NAS_AR_CNN/core/const.py" />
+    <entry file="file://$PROJECT_DIR$/NAS_AR_CNN/core/data_utils.py" />
+    <entry file="file://$PROJECT_DIR$/NAS_AR_CNN/core/utils.py" />
+    <entry file="file://$PROJECT_DIR$/NAS_AR_CNN/core/metrics.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/remote_sources/1754501098/413246410/torch/nn/modules/conv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="475" selection-start-line="475" selection-end-line="475" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/remote_sources/1754501098/413246410/torch/nn/modules/module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="492" selection-start-line="492" selection-end-line="492" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NAS_AR_CNN/train_search.py" />
+    <entry file="file://$PROJECT_DIR$/NAS_AR_CNN/core/architect.py" />
+    <entry file="file://$PROJECT_DIR$/NAS_AR_CNN/model_search.py" />
+    <entry file="file://$PROJECT_DIR$/NAS_AR_CNN/operations.py" />
+    <entry file="file://$PROJECT_DIR$/NAS_AR_CNN/genotypes.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/remote_sources/-29809528/413246410/torch/nn/modules/conv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8424">
+          <caret line="475" selection-start-line="475" selection-end-line="475" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/remote_sources/-29809528/413246410/torch/nn/modules/batchnorm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5688">
+          <caret line="324" selection-start-line="324" selection-end-line="324" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/remote_sources/-29809528/413246410/torch/nn/modules/container.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1512">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-29809528/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="134" column="67" selection-start-line="134" selection-start-column="4" selection-end-line="134" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/西北大学/2.论文阅读/13行为识别/NAS+AR/NAS_AR_CNN/train_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
+          <folding>
+            <element signature="e#23#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/remote_sources/-29809528/413246410/torch/nn/modules/module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8730">
+          <caret line="492" selection-start-line="492" selection-end-line="492" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/remote_sources/-29809528/1931661670/glob.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
+          <folding>
+            <element signature="e#34#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnn/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="118" column="28" lean-forward="true" selection-start-line="118" selection-start-column="28" selection-end-line="118" selection-end-column="28" />
+          <folding>
+            <element signature="e#23#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnn/architect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnn/visualize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnn/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3690">
+          <caret line="209" column="42" selection-start-line="209" selection-start-column="42" selection-end-line="209" selection-end-column="42" />
+          <folding>
+            <element signature="e#15#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnn/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="678">
+          <caret line="56" column="41" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnn/model_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1210">
+          <caret line="173" column="23" selection-start-line="173" selection-start-column="23" selection-end-line="173" selection-end-column="23" />
+          <folding>
+            <element signature="e#24#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnn/genotypes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnn/train_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnn/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2389">
+          <caret line="154" column="76" selection-start-line="154" selection-start-column="76" selection-end-line="154" selection-end-column="76" />
+          <folding>
+            <element signature="e#23#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnn/operations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="e#26#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
