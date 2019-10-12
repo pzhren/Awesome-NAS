@@ -12,7 +12,32 @@
     <favorites_list name="Darts" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cnn/train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
+              <folding>
+                <element signature="e#23#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cnn/model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1743">
+              <caret line="206" column="60" selection-start-line="206" selection-start-column="4" selection-end-line="206" selection-end-column="60" />
+              <folding>
+                <element signature="e#15#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -76,24 +101,39 @@
         <option value="$PROJECT_DIR$/cnn/train_search.py" />
         <option value="$PROJECT_DIR$/cnn/model_search.py" />
         <option value="$PROJECT_DIR$/cnn/visualize.py" />
-        <option value="$PROJECT_DIR$/cnn/train.py" />
         <option value="$PROJECT_DIR$/cnn/operations.py" />
+        <option value="$PROJECT_DIR$/cnn/train.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="27" />
-    <option name="y" value="420" />
-    <option name="width" value="1271" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="12" />
+    <option name="y" value="10" />
+    <option name="width" value="909" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope '项目文件'; set:项目文件; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="Scope">
+        <subPane subId="Scope '项目文件'; set:项目文件; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="Darts" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="F:\LocalGitHub\Awesome-NAS\1DARTS-Differentiable Architecture Search\Darts" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="Darts" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="F:\LocalGitHub\Awesome-NAS\1DARTS-Differentiable Architecture Search\Darts" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="cnn" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -103,7 +143,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cnn" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../3Multinomial Distribution Learning for Effective Neural Architecture Search/MDENAS" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/cnn/operations.py" />
   </component>
@@ -309,11 +349,13 @@
       <workItem from="1568294388205" duration="2520000" />
       <workItem from="1568438301185" duration="8412000" />
       <workItem from="1569992964635" duration="7295000" />
+      <workItem from="1570520832150" duration="855000" />
+      <workItem from="1570774338599" duration="3129000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="220723000" />
+    <option name="totallyTimeSpent" value="224707000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -325,13 +367,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="27" y="420" width="1271" height="1047" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="File Transfer" order="0" sideWeight="0.43820226" side_tool="true" weight="0.25357872" />
+      <window_info id="File Transfer" order="0" sideWeight="0.43820226" side_tool="true" visible="true" weight="0.120469086" />
       <window_info id="Favorites" order="1" sideWeight="0.51693666" side_tool="true" weight="0.041044775" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.56179774" visible="true" weight="0.2213047" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.56179774" weight="0.08901919" />
       <window_info id="Structure" order="3" sideWeight="0.36944744" side_tool="true" weight="0.16311301" />
-      <window_info id="Remote Host" order="4" sideWeight="0.7363737" weight="0.15618336" />
+      <window_info id="Remote Host" order="4" sideWeight="0.7363737" weight="0.32513967" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.71086955" weight="0.34044945" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
@@ -585,16 +628,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cnn/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3690">
-          <caret line="209" column="42" selection-start-line="209" selection-start-column="42" selection-end-line="209" selection-end-column="42" />
-          <folding>
-            <element signature="e#15#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cnn/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="624">
@@ -629,22 +662,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cnn/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2389">
-          <caret line="154" column="76" selection-start-line="154" selection-start-column="76" selection-end-line="154" selection-end-column="76" />
-          <folding>
-            <element signature="e#23#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cnn/operations.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
           <folding>
             <element signature="e#26#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnn/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1743">
+          <caret line="206" column="60" selection-start-line="206" selection-start-column="4" selection-end-line="206" selection-end-column="60" />
+          <folding>
+            <element signature="e#15#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnn/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
+          <folding>
+            <element signature="e#23#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
