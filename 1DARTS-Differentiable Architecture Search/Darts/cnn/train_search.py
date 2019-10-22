@@ -39,7 +39,7 @@ parser.add_argument('--save', type=str, default='EXP', help='experiment name')
 parser.add_argument('--seed', type=int, default=2, help='random seed')
 parser.add_argument('--grad_clip', type=float, default=5, help='gradient clipping') #梯度裁剪
 parser.add_argument('--train_portion', type=float, default=0.5, help='portion of training data')
-parser.add_argument('--unrolled', action='store_true', default=False, help='use one-step unrolled validation loss')
+parser.add_argument('--unrolled', action='store_true', default=True, help='use one-step unrolled validation loss')
 parser.add_argument('--arch_learning_rate', type=float, default=3e-4, help='learning rate for arch encoding')
 parser.add_argument('--arch_weight_decay', type=float, default=1e-3, help='weight decay for arch encoding')
 args = parser.parse_args()
@@ -79,6 +79,9 @@ def main():
   #参数量的大小
   logging.info("param size = %fMB", utils.count_parameters_in_MB(model))
   #06/25 03:00:02 PM param size = 1.930618MB
+  # for name, parameters in model.named_parameters():
+  #   print(name, ':', parameters.size())
+  # exit()
 
   #定义优化器
   optimizer = torch.optim.SGD(model.parameters(), args.learning_rate,
@@ -172,7 +175,7 @@ def train(train_queue, valid_queue, model, architect, criterion, optimizer, lr):
     loss = criterion(logits, target) #计算损失
 
     loss.backward() #反向传播
-    nn.utils.clip_grad_norm(model.parameters(), args.grad_clip) #梯度裁剪
+    nn.utils.clip_grad_norm_(model.parameters(), args.grad_clip) #梯度裁剪
     optimizer.step() #参数更新，更新参数W和alpha二者同时更新
 
     #计算预测准确率

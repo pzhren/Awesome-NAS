@@ -355,3 +355,32 @@ nn.Conv2d(C_in, C_in, kernel_size=kernel_size, stride=stride, padding=padding, d
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | ![CNN ä¸­åå¥ç¾æªçå·ç§¯æ¹å¼å¤§æ±æ»](../img/e72feb3bad62faac2de6b3984aed9bd0.jpg) | ![CNN ä¸­åå¥ç¾æªçå·ç§¯æ¹å¼å¤§æ±æ»](../img/f300ec1e1f75404f123d2d0d015a5624.jpg) |
 
+
+
+## Recalibrating Fully Convolutional Networks with Spatial and Channel ‘Squeeze & Excitation’ Blocks
+
+> IEEE TRANSACTIONS ON MEDICAL IMAGING
+
+### 主要对2D的数据进行处理
+
+- （a）空间压缩通道激活
+- （b）通道压缩空间激活
+- （c）空间和通道的并发压缩与激活
+
+
+
+![1571476469477](Convolution.assets/1571476469477.png)
+
+![1571476796423](Convolution.assets/1571476796423.png)
+
+
+
+
+
+## `Project & Excite' Modules for Segmentation of Volumetric Medical Scans
+
+> Accepted for International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI) 2019
+
+### 对3D数据集进行处理
+
+![1571477137177](Convolution.assets/1571477137177.png)

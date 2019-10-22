@@ -80,7 +80,6 @@ def train(train_queue, model, criterion, optimizer):
 
   for step, (input, target) in enumerate(train_queue):
     #train_queue：训练集有batch_size=96，每次计算一个batch_size,即以下操作是在一个batch_size下进行的
-    print()
     input = Variable(input).cuda()
     target = Variable(target).cuda(async=True)
 

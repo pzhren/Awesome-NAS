@@ -126,9 +126,9 @@ class Network(nn.Module):
         reduction = True
       else:
         reduction = False
-      if i == 0:
-        print('层数=8,s0(上上层/s1-->s0),s1(上层/cell-->s1:torch_cat(4*C_curr)))，C_curr')
-      print('第{}层:{},{},{}'.format(i,C_prev_prev, C_prev, C_curr))
+      # if i == 0:
+      #   print('层数=8,s0(上上层/s1-->s0),s1(上层/cell-->s1:torch_cat(4*C_curr)))，C_curr')
+      # print('第{}层:{},{},{}'.format(i,C_prev_prev, C_prev, C_curr))
       """C_prev_prev, C_prev, C_curr
       第0层:48,48,16
       第1层:48,64,16
