@@ -336,6 +336,8 @@ nn.Conv2d(C_in, C_in, kernel_size=kernel_size, stride=stride, padding=padding, d
 
 # 特征重标定卷积
 
+## SENet：Squeeze-and-Excitation Networks(2019)
+
 [Squeeze-and-Excitation Networks(2019)](http://link.zhihu.com/?target=http%3A//xueshu.baidu.com/s%3Fwd%3Dpaperuri%3A%28da0fc2c7de78dd67ef29faed8f93bfd5%29%26filter%3Dsc_long_sign%26tn%3DSE_xueshusource_2kduw22v%26sc_vurl%3Dhttp%3A%2F%2Farxiv.org%2Fabs%2F1709.01507%26ie%3Dutf-8%26sc_us%3D6552007361094053595)
 
 >这是 ImageNet 2017 竞赛 Image Classification 任务的冠军模型 SENet 的核心模块，原文叫做”Squeeze-and-Excitation“。
@@ -354,8 +356,6 @@ nn.Conv2d(C_in, C_in, kernel_size=kernel_size, stride=stride, padding=padding, d
 | SE-Inception Module                                          | SE-ResNet Module                                             |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | ![CNN ä¸­åå¥ç¾æªçå·ç§¯æ¹å¼å¤§æ±æ»](../img/e72feb3bad62faac2de6b3984aed9bd0.jpg) | ![CNN ä¸­åå¥ç¾æªçå·ç§¯æ¹å¼å¤§æ±æ»](../img/f300ec1e1f75404f123d2d0d015a5624.jpg) |
-
-
 
 ## Recalibrating Fully Convolutional Networks with Spatial and Channel ‘Squeeze & Excitation’ Blocks
 
@@ -383,4 +383,57 @@ nn.Conv2d(C_in, C_in, kernel_size=kernel_size, stride=stride, padding=padding, d
 
 ### 对3D数据集进行处理
 
-![1571477137177](Convolution.assets/1571477137177.png)
+![1571920572382](Convolution.assets/1571920572382.png)
+
+- D x C：对H x W x 1方向进行压缩
+- W x C：对D x H x 1方向进行压缩
+- H x C：对D x W x 1方向进行压缩
+
+### 对3维数据的T维度上赋予权重：
+
+对shape为的`batch_size, num_channels, T, H, W`的数据在`num_channels,H,W`三个维度上进行压缩，在`T`上激活：
+
+```python
+class ChannelSELayer3D(nn.Module):
+    """
+    3D extension of Squeeze-and-Excitation (SE) block described in:
+        *Hu et al., Squeeze-and-Excitation Networks, arXiv:1709.01507*
+        *Zhu et al., AnatomyNet, arXiv:arXiv:1808.05238*
+    对通道分配权重
+    """
+    
+    def __init__(self, T, reduction_ratio=4):
+        """
+        对每个时间T上进行分配权重
+        :param num_channels: No of input channels
+        :param reduction_ratio: By how much should the num_channels should be reduced
+        """
+        super(ChannelSELayer3D, self).__init__()
+        self.avg_pool = nn.AdaptiveAvgPool3d(1)
+        T_reduced = T // reduction_ratio
+        self.reduction_ratio = reduction_ratio
+        self.fc1 = nn.Linear(T, T_reduced, bias=True)
+        self.fc2 = nn.Linear(T_reduced, T, bias=True)
+        self.relu = nn.ReLU()
+        self.sigmoid = nn.Sigmoid()
+    
+    def forward(self, input_tensor):
+        """
+        :param input_tensor: X, shape = (batch_size, num_channels, T, H, W)
+        :return: output tensor
+        """
+        batch_size, num_channels, T, H, W = input_tensor.size()
+        tensor = input_tensor.permute(0, 2, 1, 3, 4)
+        # Average along each channel
+        squeeze_tensor = self.avg_pool(tensor)
+        
+        # channel excitation
+        fc_out_1 = self.relu(self.fc1(squeeze_tensor.view(batch_size, T)))
+        fc_out_2 = self.sigmoid(self.fc2(fc_out_1))
+        
+        output_tensor = torch.mul(tensor, fc_out_2.view(batch_size, T, 1, 1, 1))
+        output_tensor = output_tensor.permute(0, 2, 1, 3, 4)
+        
+        return output_tensor
+```
+
