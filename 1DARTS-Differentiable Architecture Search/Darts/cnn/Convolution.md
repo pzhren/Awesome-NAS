@@ -338,7 +338,11 @@ nn.Conv2d(C_in, C_in, kernel_size=kernel_size, stride=stride, padding=padding, d
 
 ## SENet：Squeeze-and-Excitation Networks(2019)
 
-[Squeeze-and-Excitation Networks(2019)](http://link.zhihu.com/?target=http%3A//xueshu.baidu.com/s%3Fwd%3Dpaperuri%3A%28da0fc2c7de78dd67ef29faed8f93bfd5%29%26filter%3Dsc_long_sign%26tn%3DSE_xueshusource_2kduw22v%26sc_vurl%3Dhttp%3A%2F%2Farxiv.org%2Fabs%2F1709.01507%26ie%3Dutf-8%26sc_us%3D6552007361094053595)
+> https://github.com/hujie-frank/SENet
+>
+> [Squeeze-and-Excitation Networks(2019)](http://link.zhihu.com/?target=http%3A//xueshu.baidu.com/s%3Fwd%3Dpaperuri%3A%28da0fc2c7de78dd67ef29faed8f93bfd5%29%26filter%3Dsc_long_sign%26tn%3DSE_xueshusource_2kduw22v%26sc_vurl%3Dhttp%3A%2F%2Farxiv.org%2Fabs%2F1709.01507%26ie%3Dutf-8%26sc_us%3D6552007361094053595)
+
+
 
 >这是 ImageNet 2017 竞赛 Image Classification 任务的冠军模型 SENet 的核心模块，原文叫做”Squeeze-and-Excitation“。
 >
@@ -360,6 +364,8 @@ nn.Conv2d(C_in, C_in, kernel_size=kernel_size, stride=stride, padding=padding, d
 ## Recalibrating Fully Convolutional Networks with Spatial and Channel ‘Squeeze & Excitation’ Blocks
 
 > IEEE TRANSACTIONS ON MEDICAL IMAGING
+>
+> https://github.com/ai-med/squeeze_and_excitation
 
 ### 主要对2D的数据进行处理
 
@@ -380,6 +386,8 @@ nn.Conv2d(C_in, C_in, kernel_size=kernel_size, stride=stride, padding=padding, d
 ## `Project & Excite' Modules for Segmentation of Volumetric Medical Scans
 
 > Accepted for International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI) 2019
+>
+> https://github.com/ai-med/squeeze_and_excitation
 
 ### 对3D数据集进行处理
 
@@ -423,7 +431,7 @@ class ChannelSELayer3D(nn.Module):
         :return: output tensor
         """
         batch_size, num_channels, T, H, W = input_tensor.size()
-        tensor = input_tensor.permute(0, 2, 1, 3, 4)
+        tensor = input_tensor.permute(0, 2, 1, 3, 4) #(b,T,C,H,W)
         # Average along each channel
         squeeze_tensor = self.avg_pool(tensor)
         
