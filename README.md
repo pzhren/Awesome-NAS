@@ -245,7 +245,7 @@
 
 | [A Survey on Neural Architecture Search](./19-survey-A Survey on Neural Architecture Search.pdf) | [Neural Architecture Search: A Survey](./19-ml-survey-Neural Architecture Search A Survey.pdf) |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![image-20200416175701](.\NAS_Survey.assets/image-20200416175701.png) | ![image-20200416175735](.\NAS_Survey.assets/image-20200416175735.png)<br/>![1587109660344](.\NAS_Survey.assets/1587109660344.png) |
+| ![image-20200416175701](.\README.assets/image-20200416175701.png) | ![image-20200416175735](.\README.assets/image-20200416175735.png)<br/>![1587109660344](.\README.assets/1587109660344.png) |
 
 ## Neural Architecture Search (NAS)
 
@@ -399,7 +399,7 @@
 
 #### RL与NAS 的结合
 
-![1587375725644](.\NAS_Survey.assets\1587375725644.png)
+![1587375725644](.\README.assets\1587375725644.png)
 
 > - controller（RNN）：相当于agent，生成框架A（相当于做出一个动作）
 > - 蓝色框：相当于是一个环境E，对动作做出反馈，即当前框架A的acc作为reward
@@ -410,13 +410,13 @@
 > - 包括kernal size, step, channel
 > - 上一个RNN生成的参数作为下一个RNN的输入
 
-![1587376155478](.\NAS_Survey.assets\1587376155478.png)
+![1587376155478](.\README.assets\1587376155478.png)
 
 #### RNN控制器参数的更新
 
 > 通过更新控制器RNN的参数θ来调整生成的模型框架
 
-![1587458105639](.\NAS_Survey.assets\1587458105639.png)
+![1587458105639](.\README.assets\1587458105639.png)
 
 ### DESIGNING NEURAL NETWORK ARCHITECTURES USING REINFORCEMENT LEARNING （ICLR'17）
 
@@ -431,17 +431,17 @@
 > - 将拓扑的信息和性能表现进行存储
 > - angent通过Q-learning，利用自己的memory学习CNN的拓扑
 
-![1587445449021](.\NAS_Survey.assets\1587445449021.png)
+![1587445449021](.\README.assets\1587445449021.png)
 
 ##### Q-learning中Q值的更新
 
 > https://www.jianshu.com/p/dc79f9e43a1d
 
-![1587456832110](.\NAS_Survey.assets\1587456832110.png)
+![1587456832110](.\README.assets\1587456832110.png)
 
 #### Markov Decision Process for CNN Architecture Generation 
 
-![1587445519081](.\NAS_Survey.assets\1587445519081.png)
+![1587445519081](.\README.assets\1587445519081.png)
 
 > 此方法也是非常耗时，对于每个数据集，作者使用10块GPU训练了8-10天。
 
@@ -473,17 +473,17 @@
 > - 不在限制两个节点之间的连接个数（即操作数），增加可供搜索的architecture的丰富度；
 > - 没有看到不同操作的权重赋值，而是直接对其进行了加和。搜索方法采用的是典型的one-shot model 的方法。
 
-![1587110738753](.\NAS_Survey.assets\1587110738753.png)
+![1587110738753](.\README.assets\1587110738753.png)
 
 ### cell-based的architecture鲁棒性分析
 
-![1587114369110](.\NAS_Survey.assets\1587114369110.png)
+![1587114369110](.\README.assets\1587114369110.png)
 
 > （a）对supernet进行PGD的对抗性训练，采样1000个子网络，在验证集微调前后的性能对比，对子网络进行对抗性微调有助于性能的提升（更加具有针对性）
 >
 > （b）绘制微调后子网络的性能直方图，**猜测鲁棒性好的网络框架拥有相似的网络结构**
 
-![1587115576667](.\NAS_Survey.assets\1587115576667.png)
+![1587115576667](.\README.assets\1587115576667.png)
 
 > （a）对robust和non-robust的框架参数α使用t-SNE进行降维可视化，发现二者明显可分。
 >
@@ -491,13 +491,13 @@
 
 于是进一步定义框架密度D，并探究其与模型的健壮性之间的关系：
 
-![1587116743607](.\NAS_Survey.assets\1587116743607.png)![1587116770723](.\NAS_Survey.assets\1587116770723.png)
+![1587116743607](.\README.assets\1587116743607.png)![1587116770723](.\README.assets\1587116770723.png)
 
 > 以此说明密集连接有助于提升框架的鲁棒性。
 
 ### 固定预算下的架构搜索
 
-![image-20200606093412999](NAS_Survey.assets/image-20200606093412999.png)
+![image-20200606093412999](README.assets/image-20200606093412999.png)
 
 > 1）直连边上的卷积比跳跃边上的卷积对架构的鲁棒性更加有效
 >
@@ -507,16 +507,16 @@
 
 ### Example of a cell during one-shot model evaluation
 
-![image-20200416175800](.\NAS_Survey.assets\image-20200416175800.png)
+![image-20200416175800](.\README.assets\image-20200416175800.png)
 
 ### Diagram of the one-shot architecture  
 
-![image-20200416175747](.\NAS_Survey.assets\image-20200416175747.jpg)
+![image-20200416175747](.\README.assets\image-20200416175747.jpg)
 
 ### Understanding One-Shot Models  
 
 
-![image-20200416175811](.\NAS_Survey.assets\image-20200416175811.png)
+![image-20200416175811](.\README.assets\image-20200416175811.png)
 
 > 当我们从stand-alone转向one-shot model时，虽然最佳模型的准确性仅下降5 - 10个百分点，但前景较差的架构的准确性下降了60个百分点。
 
@@ -530,7 +530,7 @@
 >
 >使用对称的**KL散度**来评估搜索出的模型和ALL ON模型（即保留大量路径基本不削减）的预测分布，结果如下图所示。作者发现，表现好的One-Shot模型和ALL ON模型的对称KL散度低，即这两者的预测很接近，这些One-Shot模型的验证集准确率也高。作者认为这表明权重共享会使得One-Shot模型专注于最有效的操作.
 
-![image-20200416175726](.\NAS_Survey.assets\image-20200416175726.png)
+![image-20200416175726](.\README.assets\image-20200416175726.png)
 
 ## Population Based Training of Neural Networks （2017）
 
@@ -538,7 +538,7 @@
 
 ### PBT与SO和PS的对比示意图
 
-![1587289457486](.\NAS_Survey.assets\1587289457486.png)
+![1587289457486](.\README.assets\1587289457486.png)
 
 >如图所示，(a)中的序列优化过程只有一个模型在不断优化，消耗大量时间。(b)中的并行搜索可以节省时间，但是相互之间没有任何交互，不利于信息利用。(c)中的PBT算法结合了二者的优点。
 >  首先PBT算法随机初始化多个模型，每训练一段时间设置一个检查点(checkpoint)，然后根据其他模型的好坏调整自己的模型。若自己的模型较好，则继续训练。若不好，则替换(exploit)成更好的模型参数，并添加随机扰动(explore)再进行训练。其中checkpoint的设置是人为设置每过多少step之后进行检查。扰动要么在原超参数或者参数上加噪声，要么重新采样获得。
@@ -553,7 +553,7 @@
 >
 > t：训练的步骤数
 
-![1587304075004](.\NAS_Survey.assets\1587304075004.png)
+![1587304075004](.\README.assets\1587304075004.png)
 
 ### 效果展示
 
@@ -570,7 +570,7 @@
 
 ### Overview
 
-![1587532201470](.\NAS_Survey.assets\1587532201470.png)
+![1587532201470](.\README.assets\1587532201470.png)
 
 > 主要包括：
 >
@@ -581,7 +581,7 @@
 
 | Net2Wider Actor                                         | Net2Deeper Actor                                        |
 | ------------------------------------------------------- | ------------------------------------------------------- |
-| ![1587533955593](.\NAS_Survey.assets\1587533955593.png) | ![1587533999591](.\NAS_Survey.assets\1587533999591.png) |
+| ![1587533955593](.\README.assets\1587533955593.png) | ![1587533999591](.\README.assets\1587533999591.png) |
 
 >- Net2Wider Actor：用来决定是否对网络的每一层进行扩展
 >- Net2Deeper Actor：决定是否对网络继续加深，即插入层数的位置与插入层的尺寸
@@ -595,7 +595,7 @@
 
 ### Overview
 
-![1587626730103](.\NAS_Survey.assets\1587626730103.png)
+![1587626730103](.\README.assets\1587626730103.png)
 
 >通过一个两阶段的方法来压缩网络模型：
 >
@@ -606,7 +606,7 @@
 
 ### 两个阶段所采用的网络结构
 
-![1587627565005](.\NAS_Survey.assets\1587627565005.png)
+![1587627565005](.\README.assets\1587627565005.png)
 
 ### 结果
 
@@ -621,7 +621,7 @@
 >版权声明：本文为CSDN博主「PaperWeekly」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
 >原文链接：https://blog.csdn.net/c9Yv2cf9I06K2A9E/article/details/82786338
 
-![1587647712703](.\NAS_Survey.assets\1587647712703.png)
+![1587647712703](.\README.assets\1587647712703.png)
 
 >1. 迭代采样下一个节点生成候选网络（采用随机策略或者RL）
 >2. 排序函数通过RNN处理每个候选体系结构的DSL，预测体系结构的性能
@@ -635,21 +635,21 @@
 
 ### BlockQNN与手工网络和其他自动化生成网络框架之间的对比图
 
-![1587695885919](.\NAS_Survey.assets\1587695885919.png)
+![1587695885919](.\README.assets\1587695885919.png)
 
 ### 框架编码
 
 | Network Structure Code Space                            | NSC示例                                                 |
 | ------------------------------------------------------- | ------------------------------------------------------- |
-| ![1587697380661](.\NAS_Survey.assets\1587697380661.png) | ![1587697418459](.\NAS_Survey.assets\1587697418459.png) |
+| ![1587697380661](.\README.assets\1587697380661.png) | ![1587697418459](.\README.assets\1587697418459.png) |
 
 ### Q-learning process illustration 
 
-![1587697559392](.\NAS_Survey.assets\1587697559392.png)
+![1587697559392](.\README.assets\1587697559392.png)
 
 ### Q-learning学习的有效性
 
-![1587697900061](.\NAS_Survey.assets\1587697900061.png)
+![1587697900061](.\README.assets\1587697900061.png)
 
 > - (a)随机探索与Q-learning搜索的对比
 > - (b)、(c)Top2的结构
@@ -671,7 +671,7 @@
 
 ##### 定义如何拓宽网络 Net2WiderNet
 
-![1587717742591](.\NAS_Survey.assets\1587717742591.png)
+![1587717742591](.\README.assets\1587717742591.png)
 
 >定义两种操作，Replication-Add和Split-Concat：
 >
@@ -684,7 +684,7 @@
 
 #### **定义Path-Level的架构搜索的数据结构**
 
-![1587717885648](.\NAS_Survey.assets\1587717885648.png)
+![1587717885648](.\README.assets\1587717885648.png)
 
 > - a过程是Net2Wider的过程，
 >
@@ -711,7 +711,7 @@
 
 > G是一个net的有向无环图，节点是feature map，边是对应的操作，该操作不再是简单的卷积，而可以是低一级G（有向无环图的操作）
 
-![1587731511478](.\NAS_Survey.assets\1587731511478.png)
+![1587731511478](.\README.assets\1587731511478.png)
 
 ### 进化算法
 
@@ -756,7 +756,7 @@
 > - small：用于搜索阶段的框架比较
 > - large：用于评估学习的cell
 
-![1587736200034](.\NAS_Survey.assets\1587736200034.png)
+![1587736200034](.\README.assets\1587736200034.png)
 
 ## Neural Architecture Optimization (18'NeurIPS)
 
@@ -764,7 +764,7 @@
 >
 > [可参考](https://blog.csdn.net/favorxin/article/details/90206319)
 
-![1587782721950](.\NAS_Survey.assets\1587782721950.png)
+![1587782721950](.\README.assets\1587782721950.png)
 
 > - 编码器: 将离散的网络框架进行编码为一个连续的表示
 > - 预测方程: 将连续的表示作为输入, 预测模型的性能
@@ -780,18 +780,18 @@
 
 > cell中包含5个block,每个block有一个五元组组成(I1, I2, O1, O2, C) ：两个输入，两个对应的操作，一个合并的操作类型
 
-![1587822998031](.\NAS_Survey.assets\1587822998031.png)
+![1587822998031](.\README.assets\1587822998031.png)
 
 ### 递增式cell的构建
 
-![1587825209134](.\NAS_Survey.assets\1587825209134.png)
+![1587825209134](.\README.assets\1587825209134.png)
 
 > - 蓝色的小圆圈：一个对应的框架
 > - 黑色实线箭头：添加一个block
 
 ### 使用代理模型预测性能
 
-![1587826084738](.\NAS_Survey.assets\1587826084738.png)
+![1587826084738](.\README.assets\1587826084738.png)
 
 ## Large-Scale Evolution of Image Classifiers (ICML'17)
 
@@ -806,7 +806,7 @@
 
 ### 进化的实验过程
 
-![1587965013799](.\NAS_Survey.assets\1587965013799.png)
+![1587965013799](.\README.assets\1587965013799.png)
 
 >上面的每个点都表示一个individual，其中灰色的点是被杀死的点，蓝色的点是存活下来的点。底下的四个框架是演变过程的一个例子。一开始的时候网络只有一个全局池化层，通过演变一步步变为最后的结构。从结构可以看出来，和人工设计的网络结构不同，这些网络结构有时会经历很多个非线性激活层。
 >————————————————
@@ -817,7 +817,7 @@
 
 |                                                         |                                                         |
 | ------------------------------------------------------- | ------------------------------------------------------- |
-| ![1587966054080](.\NAS_Survey.assets/1587966054080.png) | ![1587966073406](.\NAS_Survey.assets/1587966073406.png) |
+| ![1587966054080](.\README.assets/1587966054080.png) | ![1587966073406](.\README.assets/1587966073406.png) |
 
 > 禁用权重继承性能会有所下降
 
@@ -854,7 +854,7 @@
 
 | 网络编码示例                                            | 两个独立进化得到的网络框架                              |
 | ------------------------------------------------------- | ------------------------------------------------------- |
-| ![1587976524569](.\NAS_Survey.assets\1587976524569.png) | ![1587976478707](.\NAS_Survey.assets\1587976478707.png) |
+| ![1587976524569](.\README.assets\1587976524569.png) | ![1587976478707](.\README.assets\1587976478707.png) |
 
 
 
@@ -862,7 +862,7 @@
 
 ## FAST NEURAL NETWORK ADAPTATION VIA PARAMETER REMAPPING AND ARCHITECTURE SEARCH（ICLR20）
 
-![image-20200507105334195](NAS_Survey.assets/image-20200507105334195.png)
+![image-20200507105334195](README.assets/image-20200507105334195.png)
 
 > 从一个设计好的人工网络开始，对其进行拓展得到super network，然后做架构自适应得到目标架构，然后做参数自适应得到目标网络。
 
@@ -874,7 +874,7 @@
 >
 > [可参考](https://blog.csdn.net/qq_42738654/article/details/103852118)
 
-![image-20200507125954431](NAS_Survey.assets/image-20200507125954431.png)
+![image-20200507125954431](README.assets/image-20200507125954431.png)
 
 ## PC-DARTS: Partial Channel Connections for Memory-Efficient Architecture Search（ICLR20）
 
@@ -884,4 +884,4 @@
 >
 > [可参考](https://zhuanlan.zhihu.com/p/73740783)
 
-![image-20200507134957928](NAS_Survey.assets/image-20200507134957928.png)
+![image-20200507134957928](README.assets/image-20200507134957928.png)
