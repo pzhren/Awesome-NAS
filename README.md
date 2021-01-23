@@ -1,3 +1,9 @@
+# [A Comprehensive Survey of Neural Architecture Search: Challenges and Solutions](https://arxiv.org/abs/2006.02903)
+这个是在做NAS的综述时构建paper语料库时所整理的NAS相关信息。
+- 2021.1.18：该文章经过多轮修改以正式被ACM Computing Surveys2021录用
+
+
+
 # 思路
 
 ## 初代网络
